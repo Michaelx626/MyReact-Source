@@ -1,10 +1,11 @@
 import React from 'react';
-// import './App.css';
+// import NavBar from './components/Navbar'
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
     <div>
-      <p>hello world</p>
+      <Portfolio />
     </div>
   );
 }
