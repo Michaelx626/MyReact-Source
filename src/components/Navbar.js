@@ -5,11 +5,6 @@ export default function NavBar() {
     <nav className="navbar justify-content-end">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">
             About Me
           </a>
