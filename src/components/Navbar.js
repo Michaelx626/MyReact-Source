@@ -1,28 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <nav className="navbar justify-content-end">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          <Link className="nav-link active" aria-current="page" to="/">
             About Me
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/portfolio">
             Portfolio
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/contactme">
             Contact Me
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/resume">
             Resume
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
