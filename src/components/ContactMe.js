@@ -1,38 +1,41 @@
 import React from "react";
-import { useState } from 'react';
+// use the useState?
 
 export default function ContactMe() {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, message } = e.target;
 
-    const handleName = (e) => {
-        setName(e.target.value);
-    };
-    const handleEmail = (e) => {
-        setEmail(e.target.value);
-    };
-    const handleMessage = (e) => {
-        setMessage(e.target.value);
-    };
+    if (name.value && email.value && message.value) {
+      console.log(`this works!`);
+      name.value = '';
+      email.value = '';
+      message.value = '';
+    }
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        
-        if( name && email && message ){
-            
-            setName('')
-            setEmail('')
-            setMessage('')
-        }
-    };
+  const nameBlur = (e) => {
+    const { name } = e.target;
+
+    if (name || name.value === ''){
+      alert('Please enter your name!')
+    }
+  };
+
+  const messageBlur = (e) => {
+    const { message } = e.target;
+
+    if (message && message.value === ''){
+      alert('Please enter a message!')
+    }
+  };
 
   return (
-    <>
-      <input onChange={handleName} value={name}></input>
-      <input type="email" onChange={handleEmail} value={email}></input>
-      <input onChange={handleMessage} value={message}></input>
-      <button onClick={handleSubmit}>Submit</button>
-    </>
+    <form onSubmit={handleSubmit}>
+      <input name="name" onBlur={nameBlur}></input>
+      <input name="email" type="email"></input>
+      <input name="message"onBlur={messageBlur}></input>
+      <button type="submit">Submit</button>
+    </form>
   );
 }
