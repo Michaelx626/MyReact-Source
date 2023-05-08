@@ -35,19 +35,32 @@ export default function ContactMe() {
       name.value = "";
       email.value = "";
       message.value = "";
-    } else if (!name.value && !email.value && !message.value) {
-      setErrorMessage(
-        "Please enter your name, your email address and provide a message!"
-      );
-      setTimeout(() => setErrorMessage(""), 3000);
-    } else if (!message.value) {
-      setErrorMessage("Please provide a message!");
-      setTimeout(() => setErrorMessage(""), 3000);
-    } else if (!name.value) {
+    }
+  };
+
+  const onBlurName = (e) => {
+    const { name } = e.target;
+
+    if (!name.value) {
       setErrorMessage("Please enter your name!");
       setTimeout(() => setErrorMessage(""), 3000);
-    } else {
-      setErrorMessage("Please provide an email address!");
+    }
+  };
+
+  const onBlurEmail = (e) => {
+    const { email } = e.target;
+
+    if (!email) {
+      setErrorMessage("Please enter your email address!");
+      setTimeout(() => setErrorMessage(""), 3000);
+    }
+  };
+
+  const onBlurMessage = (e) => {
+    const { message } = e.target;
+
+    if (!message) {
+      setErrorMessage("Please provide a message!");
       setTimeout(() => setErrorMessage(""), 3000);
     }
   };
@@ -57,15 +70,18 @@ export default function ContactMe() {
       <h4>Contact:</h4>
       <MarginContainer>
         <p>Name:</p>
-        <InputBoxes name="name"></InputBoxes>
+        <InputBoxes name="name" onBlur={onBlurName}></InputBoxes>
       </MarginContainer>
       <MarginContainer>
         <p>Email Address:</p>
-        <InputBoxes name="email" type="email"></InputBoxes>
+        <InputBoxes name="email" type="email" onBlur={onBlurEmail}></InputBoxes>
       </MarginContainer>
       <MarginContainer>
         <p>Message:</p>
-        <MessageInputBox name="message"></MessageInputBox>
+        <MessageInputBox
+          name="message"
+          onBlur={onBlurMessage}
+        ></MessageInputBox>
       </MarginContainer>
       <MarginContainer>
         <TextColor>{errorMessage}</TextColor>
