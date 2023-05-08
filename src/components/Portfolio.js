@@ -56,11 +56,6 @@ const Projects = [
     live: "https://michaelx626.github.io/Weather-Forecast-Station/index.html",
   },
   {
-    title: "Weather Forecast Station",
-    github: "https://github.com/Michaelx626/Weather-Forecast-Station",
-    live: "https://michaelx626.github.io/Weather-Forecast-Station/index.html",
-  },
-  {
     title: "Daily Event Organizer",
     github: "https://github.com/Michaelx626/Daily-Event-Organizer",
     live: "https://michaelx626.github.io/Daily-Event-Organizer/index.html",
@@ -75,7 +70,26 @@ const Projects = [
     github: "https://github.com/Michaelx626/Most-Secured-Password-Generator",
     live: "https://michaelx626.github.io/Most-Secured-Password-Generator/index.html",
   },
-  
+  {
+    title: "E-Commerce_Database",
+    github: "https://github.com/Michaelx626/E-Commerce_Database",
+    live: "https://drive.google.com/file/d/1X2yTrgJn6ndlndTnMHKnCwLgve67702E/view",
+  },
+  {
+    title: "Company-Control",
+    github: "https://github.com/Michaelx626/Company-Control",
+    live: "https://drive.google.com/file/d/1oOjftfX8gbfOBB-rOgCKVTLwGPDqiL6m/view",
+  },
+  {
+    title: "README-Generator",
+    github: "https://github.com/Michaelx626/README-Generator",
+    live: "https://drive.google.com/file/d/1wg5LJRnbAwB2e4LCIu3iwXN9nYos_Bug/view",
+  },
+  {
+    title: "Social-Database",
+    github: "https://github.com/Michaelx626/Social-Database",
+    live: "https://drive.google.com/file/d/1EdUULWmvrXGyvctqCScD8bBJOo8ATjq_/view",
+  },
 ];
 
 export default function Portfolio() {
