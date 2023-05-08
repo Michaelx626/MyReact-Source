@@ -16,7 +16,7 @@ const GridContainer = styled.div`
 `;
 
 const ProjectTitle = styled.div`
-  color: green;
+  color: blue;
 `;
 
 const ImageResizing = styled.img`
@@ -97,7 +97,7 @@ export default function Portfolio() {
     <GridContainer>
       {Projects.map((project) => (
         <ProjectTitle key={project.title}>
-          <h4>{project.title}</h4>
+          <h4><u>{project.title}</u></h4>
           <Link to={project.github}>
             <ImageResizing src={gitHubIcon}></ImageResizing>
           </Link>

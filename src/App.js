@@ -11,7 +11,6 @@ import Resume from "./components/Resume";
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
 `;
 
 const HtmlElement = styled.div`

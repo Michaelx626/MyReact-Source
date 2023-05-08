@@ -26,6 +26,7 @@ const ResumeContainer = styled.div`
 
 const MarginContainer = styled.div`
   margin-left: 20px;
+  text-align: center;
 `;
 
 export default function Resume() {
@@ -43,7 +44,7 @@ export default function Resume() {
         <p>
           Click Here to download{" "}
           <a href="/resume" onClick={handleDownload}>
-            resume
+            Resume
           </a>
         </p>
       </MarginContainer>
