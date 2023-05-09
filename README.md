@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+<img src="https://img.shields.io/badge/Licenses-MIT-f39f37" alt="badge for licenses"> 
+<h1 align="center">MyReact-Source</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">Project Description</h2>
+<p align="center">This project took a quite a bit of time and effort to create. This project is my developer portfolio that future employers will be receiving. Everything is made with React and it was extremely fun to make trying to make it perfect! I've seen the improvement from my previous portfolio versus now. The difference is night and day! React has really been challenging at times but perfecting this skill can brighten the future. I've learned so many great things outside of the course that were implemented such as styled components. This feature helped me style and format my pages tremendously! Overall, in my opinion, this project is a must and extremely important to learn and tackle. I'm glad that I've gotten the chance to experience React.</p>
+   
+<h2 align="center">Table of Content</h2>
+<li align="center"><a href="#Installation">Installation</a></li>
+<li align="center"><a href="#Usage">Usage</a></li>
+<li align="center"><a href="#Credits">Credits</a></li>
+<li align="center"><a href="#Licenses">Licenses</a></li>
+     
+<h2 align="center" id="Installation">Installation</h2>
+<p align="center">N/A</p>
+   
+<h2 align="center" id="Usage">Usage</h2>
+<p align="center">You can access my project, MyReact-Source, by simply clicking on this highlighted text.</p>
+<p align="center"><a href="${usage}" target="_blank">Here</a></p>
 
-## Available Scripts
+<h2 align="center">Screenshots</h2>
 
-In the project directory, you can run:
+![text](./src/Images/Screen%20Shot%202023-05-09%20at%203.20.39%20AM.png)
 
-### `npm start`
+<h2 align="center" id="Credits">Credit</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 align="center">Tests</h2>
+<p align="center">N/A</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 align="center" id="Licenses">Licenses</h2>
+<p align="center">MIT</p>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">Copyright (c) 2023 Michael Lin</p>

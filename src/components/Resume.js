@@ -34,7 +34,7 @@ const BackendContainer = styled.div`
 `;
 
 export default function Resume() {
-  const handleDownload = () => {
+  const handleDownloadResume = () => {
     const url = "/resume.pdf";
     const link = document.createElement("a");
     link.href = url;
@@ -42,13 +42,29 @@ export default function Resume() {
     document.body.appendChild(link);
     link.click();
   };
+
+  const handleDownloadProficiencies = () => {
+    const url = "/proficiencies.pdf";
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", 'proficiencies.pdf');
+    document.body.appendChild(link);
+    link.click();
+  };
+
   return (
     <>
       <MarginContainer>
         <p>
-          Click Here to download{" "}
-          <a href="resume.pdf" onClick={handleDownload}>
+          Click Here to download my{" "}
+          <a href="/resume" onClick={handleDownloadResume}>
             Resume
+          </a>
+        </p>
+        <p>
+          Click Here to download my{" "}
+          <a href="/resume" onClick={handleDownloadProficiencies}>
+            Proficiencies
           </a>
         </p>
       </MarginContainer>
