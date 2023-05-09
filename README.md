@@ -19,7 +19,7 @@
 
 <h2 align="center">Screenshots</h2>
 
-![text](./src/Images/Screen%20Shot%202023-05-09%20at%203.20.39%20AM.png)
+![text](./src/Images/Screen%20Shot%202023-05-09%20at%203.44.05%20AM.png)
 
 <h2 align="center" id="Credits">Credit</h2>
 
