@@ -31,10 +31,10 @@ const MarginContainer = styled.div`
 
 export default function Resume() {
   const handleDownload = () => {
-    const url = "/resume";
+    const url = "/resume.pdf";
     const link = document.createElement("a");
     link.href = url;
-    link.setAttribute("download", "resume.pdf");
+    link.setAttribute("download", 'resume.pdf');
     document.body.appendChild(link);
     link.click();
   };
@@ -43,7 +43,7 @@ export default function Resume() {
       <MarginContainer>
         <p>
           Click Here to download{" "}
-          <a href="/resume" onClick={handleDownload}>
+          <a href="resume.pdf" onClick={handleDownload}>
             Resume
           </a>
         </p>

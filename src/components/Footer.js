@@ -23,7 +23,7 @@ export default function Footer() {
       <Link to="https://github.com/Michaelx626">
         <ImageResizing src={gitHubIcon}></ImageResizing>
       </Link>
-      <p>© 2023: Michael Lin</p>
+      <p>Copyright © 2023: Designed and built by Michael Lin</p>
     </FooterContainer>
   );
 }
