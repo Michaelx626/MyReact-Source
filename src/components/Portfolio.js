@@ -12,7 +12,7 @@ const GridContainer = styled.div`
   align-items: center;
   text-align: center;
   gap: 20px;
-  margin: 0 20px;
+  margin: 20px 20px;
 `;
 
 const ProjectTitle = styled.div`

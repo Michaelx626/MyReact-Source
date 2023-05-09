@@ -25,8 +25,12 @@ const ResumeContainer = styled.div`
 `;
 
 const MarginContainer = styled.div`
-  margin-left: 20px;
+  margin: 50px 0px;
   text-align: center;
+`;
+
+const BackendContainer = styled.div`
+  margin-left: 20px;
 `;
 
 export default function Resume() {
@@ -57,14 +61,14 @@ export default function Resume() {
             ))}
           </ul>
         </div>
-        <MarginContainer>
+        <BackendContainer>
           <h3>Back-End JavaScript Proficiencies</h3>
           <ul>
             {backEndMaterials.map((subject) => (
               <li key={subject}>{subject}</li>
             ))}
           </ul>
-        </MarginContainer>
+        </BackendContainer>
       </ResumeContainer>
     </>
   );

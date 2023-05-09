@@ -10,11 +10,14 @@ const FooterContainer = styled.div`
   width: 100%;
   text-align: center;
   margin-top: 100px;
+  border-top: black solid 2px;
+  background-color: lightblue;
 `;
 
 const ImageResizing = styled.img`
   height: 70px;
   width: 70px;
+  background-color: lightblue;
 `;
 
 export default function Footer() {

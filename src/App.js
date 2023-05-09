@@ -12,11 +12,13 @@ import Resume from "./components/Resume";
 const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  border-bottom: black solid 2px;
+  background-color: lightblue;
 `;
 
 const HtmlElement = styled.div`
   position: relative;
-  min-height: 100vh;
+  max-height: 100vh;
 `;
 
 const MyName = styled.h2`
