@@ -6,7 +6,7 @@ export default function NavBar() {
     <nav className="navbar justify-content-end">
       <ul className="nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">
+          <Link className="nav-link active" aria-current="page" to="MyReact-Source/">
             About Me
           </Link>
         </li>

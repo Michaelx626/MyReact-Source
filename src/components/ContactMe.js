@@ -30,6 +30,10 @@ const TextColor = styled.p`
   color: red;
 `;
 
+const Success = styled.p`
+  color: green;
+`;
+
 const MarginContainer = styled.div`
   margin: 10px 0;
 `;
@@ -49,13 +53,14 @@ export default function ContactMe() {
   const [emailValue, setEmailValue] = useState("");
   const [messageValue, setMessageValue] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (nameValue && emailValue && messageValue) {
-      setErrorMessage("Thank you for submitting!");
-      setTimeout(() => setErrorMessage(""), 3000);
+      setSuccessMessage("Thank you for submitting!");
+      setTimeout(() => setSuccessMessage(""), 3000);
       setNameValue('');
       setEmailValue('');
       setMessageValue('');
@@ -126,6 +131,7 @@ export default function ContactMe() {
       </MarginContainer>
       <MarginContainer>
         <TextColor>{errorMessage}</TextColor>
+        <Success>{successMessage}</Success>
         <SubmitButton type="submit">Submit</SubmitButton>
       </MarginContainer>
     </FormContainer>

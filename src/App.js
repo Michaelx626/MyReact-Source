@@ -34,7 +34,7 @@ function App() {
           <NavBar />
         </HeaderContainer>
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route path="MyReact-Source/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contactme" element={<ContactMe />} />
           <Route path="/resume" element={<Resume />} />
