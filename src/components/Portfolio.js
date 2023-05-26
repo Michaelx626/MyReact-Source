@@ -26,6 +26,11 @@ const ImageResizing = styled.img`
 
 const Projects = [
   {
+    title: "GearHub",
+    github: "https://github.com/Michaelx626/GearHub",
+    live: "https://serene-ridge-35528.herokuapp.com/",
+  },
+  {
     title: "AnswerHub",
     github: "https://github.com/Michaelx626/AnswerHub",
     live: "https://whispering-retreat-56820.herokuapp.com/login",
